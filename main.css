@@ -1,0 +1,2960 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Edu NSW ACT Foundation', cursive; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    color: #242424;
+    line-height: 1.7em;
+    font-weight: 400;
+    background: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+/* page ---1 css */
+.page1 {
+    /* background-image: linear-gradient(rgb(18 17 17 / 45%), rgb(0 0 0 / 46%)), url(images/myschool.jpeg); */
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+#default {
+    display: none;
+}
+
+.mynav {
+    height: 28px;
+    margin-top: 0px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px 0px 0px;
+
+}
+
+.mynav ul {
+    display: flex;
+    background-color: black;
+    list-style: none;
+}
+
+.mynav ul li {
+    margin: 0 35px;
+}
+
+.mynav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 2px 0px;
+    transition: all 0.3 ease;
+}
+
+.mynav .menu-btn i {
+    color: white;
+    font-size: 15px;
+
+    cursor: pointer;
+    display: none;
+}
+
+.mynav ul li a:hover {
+    color: #3cdcd8;
+    border-bottom: 0.5px solid #3cdcd8;
+}
+
+#click {
+    display: none;
+}
+
+.social-media-contact-navbar {
+    display: none;
+    color: white;
+}
+
+/* logo-icon css */
+.logo-name-details {
+    color: black;
+    display: inline-block;
+
+}
+
+.logo-name-details li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.logo-name-details li h1 {
+    list-style: none;
+    display: flex;
+    float: left;
+    margin-top: -130px;
+    margin-left: -51px;
+}
+
+.logo-image {
+    display: inline-block;
+    position: static;
+    margin: 45px 97px;
+    height: 115px;
+}
+
+.social-media-contact {
+    color: black;
+    display: inline-block;
+}
+
+#call {
+    color: black;
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 35%;
+}
+
+#call:hover {
+    color: #3fdfd9e6;
+}
+
+#fb {
+    color: black;
+    position: absolute;
+    margin-left: 47%;
+    margin-top: -8.5%;
+    font-size: 25px;
+}
+
+#fb:hover {
+    color: #3fdfd9e6;
+}
+
+#u-tube {
+    color: black;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -8.5%;
+    font-size: 25px;
+}
+
+#u-tube:hover {
+    color: #3fdfd9e6;
+}
+
+#e-mail {
+    color: black;
+    position: absolute;
+    margin-left: 53%;
+    margin-top: -8.5%;
+    font-size: 25px;
+}
+
+#e-mail:hover {
+    color: #3fdfd9e6;
+}
+
+
+/* block section */
+.flexbox-page1 {
+    margin-top: -3%;
+}
+
+nav {
+    background: #0d0c0c;
+    width: 100%;
+    display: flex;
+    padding: 0px 0px;
+    height: 68px;
+    margin: 0px 0px;
+}
+
+nav a {
+    display: inline-block;
+    color: black;
+
+}
+
+nav ul {
+    display: inline;
+    margin: 15px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 1px 3px;
+}
+
+
+nav ul li:hover ul {
+    display: block;
+    margin-top: -1%;
+
+}
+
+nav ul li ul {
+    position: absolute;
+    width: 180px;
+    display: none;
+}
+
+nav ul li ul li {
+    background: rgb(25, 205, 237);
+    display: block;
+}
+
+nav ul li ul li a {
+    display: block !important;
+    margin-top: -3%;
+}
+
+.block {
+    margin: -22px -2px;
+    text-decoration: none;
+    padding: 20px 86px;
+    text-align: center;
+    color: rgb(249, 245, 245);
+    font-size: 20px;
+
+}
+
+.block i {
+    display: inline-block;
+    margin: 10px 3px;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: cyan;
+}
+
+.block:hover {
+    color: #3fdfd9e6;
+}
+
+/* quote css */
+.myschool1-image {
+    background-image: linear-gradient(rgb(18 17 17 / 45%), rgb(0 0 0 / 46%)), url(images/myschool.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.my-quote {
+    display: flexbox;
+    float: right;
+    margin-top: 10%;
+}
+
+.first-line p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 29px;
+    color: white;
+    padding: 17px 28px;
+    background-color: rgb(107 168 16 / 81%);
+}
+
+.third-line p {
+    margin-top: 13%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 29px;
+    color: white;
+    padding: 17px 28px;
+    background-color: rgb(107 168 16 / 81%);
+
+}
+
+.second-line p {
+    margin-top: -2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 29px;
+    color: white;
+
+    width: 51%;
+    float: right;
+    padding: 17px;
+
+    background-color: rgb(107 168 16 / 81%);
+
+}
+
+/* about -us */
+.aboutus-heading {
+    text-align: left;
+    color: #01B1D7;
+    font-size: 30px;
+    padding: 1px 23px;
+    margin: 50px 15px;
+
+}
+
+.paragraph-aboutus {
+    float: left;
+    width: 55%;
+    margin: 6px 35px;
+    text-align: justify;
+}
+
+#building-image {
+    width: 100%;
+}
+
+/* about us elements */
+.elements-aboutus {
+    display: inline-block;
+    margin: 30px 120px;
+    background-color: #e3e3ec;
+
+}
+
+.link-block {
+    color: block;
+    display: block;
+    padding: 3px 16px;
+    margin: 15px;
+}
+
+.link-block a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+
+}
+
+.link-block:hover {
+    display: inline-block;
+    background-color: #7c7676;
+}
+
+
+
+/* page ---2 css */
+
+.page-2 {
+    background-color: white;
+    height: 100vh;
+}
+
+.announcement {
+    text-align: left;
+    color: #01B1D7;
+    font-size: 24px;
+    padding: 41px 30px;
+    margin: 10px 15px;
+
+}
+
+.announcement-box {
+    padding: 0px 38px;
+    margin-left: 5%;
+    margin-top: 4%;
+    display: flexbox;
+    float: left;
+    width: 25%;
+
+}
+
+/* founder box css */
+.founder-box {
+    display: flexbox;
+    margin-left: 4%;
+    margin-top: 7%;
+    float: left;
+    width: 25%;
+    text-align: justify;
+}
+
+#founder-image {
+    height: 20%;
+    width: 100%;
+}
+
+.horizontal-line {
+    margin-top: -13%;
+    color: #7c7676;
+    width: 80%;
+    position: center;
+
+}
+
+/* page -3 */
+.page-3 {
+    margin-top: 3%;
+    width: 80%;
+    margin-left: 9%;
+    text-align: justify;
+}
+
+.introduction h1 {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+/* page-4 */
+.page-4 {
+    margin-top: 5%;
+}
+
+.img-any {
+    display: flexbox;
+    float: left;
+    width: 50%;
+    height: 60%;
+
+}
+
+.teacher-image-more-about-gps {
+    width: 100%;
+    height: 75vh;
+}
+
+.keypoints-heading {
+    margin-left: 2%;
+    margin-top: -3%;
+    font-size: 30px;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 10vh;
+    width: 30%;
+}
+
+.key-points {
+    display: flexbox;
+    float: right;
+    width: 45%;
+    height: 60%;
+    margin-left: 3%;
+
+
+}
+
+.icon-image-div {
+    display: flexbox;
+    float: left;
+    width: 8%;
+}
+
+.keypoint-image {
+    width: 100%;
+    height: 5%;
+}
+
+.keypoint-heading {
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.keypoint-para {
+    margin-top: 3%;
+    margin-left: 8%;
+    text-align: justify;
+    width: 80%;
+}
+
+
+/*  page 5 */
+.page-5 {
+    margin-top: 40%;
+    position: absolute;
+}
+
+.page-5 h2 {
+    margin-left: 5%;
+    font-size: 30px;
+    border-bottom: 1px gray solid;
+    width: 15%;
+    line-height: 50px;
+}
+
+.image-flexbox {
+    display: flexbox;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.image-flexbox ul {
+    top: 50%;
+    left: 50%;
+    display: flex;
+    object-fit: contain;
+
+}
+
+.image-flexbox ul li {
+    list-style: none;
+    width: 100%;
+    height: 30vh;
+
+    margin: 0 4px;
+    animation: animate .7s infinite alternate
+}
+
+@keyframes animate {
+    0% {
+        transform: scaleY(1);
+    }
+
+    25% {
+        transform: scaleY(1);
+    }
+
+    50% {
+        transform: scaleY(1);
+    }
+
+    75% {
+        transform: scaleY(1);
+    }
+
+    100% {
+        transform: scaleY(1.5);
+    }
+
+}
+
+.image-flexbox ul li:nth-child(1) {
+    animation-delay: .1s;
+}
+
+.image-flexbox ul li:nth-child(2) {
+    animation-delay: .2s;
+}
+
+.image-flexbox ul li:nth-child(3) {
+    animation-delay: .3s;
+}
+
+.image-flexbox ul li:nth-child(4) {
+    animation-delay: .4s;
+}
+
+.image-flexbox ul li:nth-child(5) {
+    animation-delay: .5s;
+}
+
+.image-flexbox ul li:nth-child(6) {
+    animation-delay: .6s;
+}
+
+.img-flex-inner-div1 {
+
+    display: flexbox;
+    float: left;
+    width: 15%;
+    margin: 0.5%;
+
+}
+
+.img-flex-inner-div2 {
+    display: flexbox;
+    float: left;
+    width: 15%;
+    margin: 0.5%;
+
+}
+
+.img-flex-inner-div3 {
+    display: flexbox;
+    float: left;
+    width: 15%;
+    margin: 0.5%;
+
+}
+
+.img-flex-inner-div4 {
+    display: flexbox;
+    float: left;
+    width: 15%;
+    margin: 0.5%;
+
+}
+
+.img-flex-inner-div5 {
+    display: flexbox;
+    float: right;
+    width: 15%;
+    margin: 0.5%;
+
+
+}
+
+.img-flex-inner-div6 {
+    display: flexbox;
+
+    float: right;
+    width: 15%;
+    margin: 0.5%;
+
+}
+
+/*
+.img-flex-inner-div7{
+    display: flexbox;
+    visibility: hidden;
+    float: left;
+    width: 20%;
+    height: 30vh;
+
+} */
+.photo-gallery-image {
+    width: 100%;
+    height: 30vh;
+
+}
+
+
+/* page-6 */
+.page-6 {
+    background-image: linear-gradient(rgb(18 17 17 / 76%), rgba(18, 18, 17, 0.954)), url(images/building.webp);
+    background-repeat: no-repeat;
+    margin-top: 75%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 40vh;
+}
+
+.page-6 p {
+    font-size: 40px;
+    text-align: center;
+    line-height: 70px;
+    margin-left: 6%;
+    color: rgb(13, 232, 243);
+    font-weight: 550;
+
+}
+
+.page-6-para {
+    padding: 50px;
+    margin-top: 20%;
+}
+
+/* page-7 */
+
+.page-7 {
+    background-image: linear-gradient(rgba(24, 21, 21, 0.5), rgba(18, 18, 17, 0.954)), url(images/blue-bg.jpg);
+    background-repeat: no-repeat;
+    margin-top: -2%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 40vh;
+}
+
+.page-7-heading {
+    font-size: 30px;
+    padding: 30px 40px;
+    line-height: 40px;
+
+    margin-left: 8%;
+    margin-right: 10%;
+    color: rgb(248, 251, 252);
+}
+
+
+.page-7 p {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+
+    line-height: 40px;
+    margin-top: -3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(248, 251, 252);
+}
+
+/* page-8 */
+.page-8 {
+    background-image: linear-gradient(rgba(24, 21, 21, 0.5), rgba(18, 18, 17, 0.954)), url(images/black.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+}
+
+.page-8-div-1 {
+    display: flexbox;
+    float: left;
+    margin-top: 2%;
+    margin-left: 7%;
+    width: 20%;
+    color: white;
+}
+
+.page-8-div-1 li {
+    list-style: none;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+#page-8-icons {
+    margin-right: 4%;
+    color: #01B1D7;
+}
+
+.page-8-div-2 {
+    display: flexbox;
+    float: left;
+    margin-top: 2%;
+    margin-left: 4%;
+    width: 20%;
+    color: white;
+
+
+}
+
+.page-8-div-2 li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.page-8-div-2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.page-8-div-2 a:hover {
+    color: rgb(49, 224, 255);
+    text-decoration: none;
+}
+
+#page-8-icons-inner-div {
+    color: #01B1D7;
+    margin-top: 10%;
+    margin-left: 3%;
+    border-radius: 10%;
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+#page-8-icons-inner-div:hover {
+    color: #ace8f6;
+}
+
+.page-8-div-3 {
+    display: flexbox;
+    float: left;
+    margin-top: 3%;
+    height: 20%;
+    margin-left: 4%;
+    width: 40%;
+
+}
+
+#vdogallery-image {
+    height: 30vh;
+    width: 80%;
+    cursor: pointer;
+}
+
+/* footer css */
+
+.main-footer {
+    background-color: black;
+    width: 100%;
+    display: block;
+    color: #7c7676;
+    position: absolute;
+
+    height: 60px;
+    bottom: auto;
+}
+
+.copyright {
+    margin-left: 20%;
+    text-align: center;
+    padding: 21px;
+    display: inline-block;
+
+
+}
+
+/* top-back scrolling */
+.scroll-up {
+
+    float: right;
+    margin: 10px 30px;
+    font-size: 34px;
+    color: #3cdcd8;
+}
+
+.scroll-up:hover {
+    color: #78c8c5;
+}
+
+#myBtn {
+    display: inline-block;
+    position: relative;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    size: 20px;
+
+}
+
+/* responsive navbar */
+@media (max-width: 940px) {
+
+    /* logo */
+    .logo-name-details {
+        color: black;
+        display: inline-block;
+
+    }
+
+    .logo-name-details li {
+        list-style: none;
+        display: inline-block;
+
+    }
+
+    .logo-name-details li h1 {
+        list-style: none;
+        display: flex;
+        float: left;
+        margin-top: -130px;
+        margin-left: -51px;
+    }
+
+    .logo-image {
+        display: inline-block;
+        position: static;
+        margin: 45px 97px;
+        height: 115px;
+    }
+
+    /* nav */
+    .mynav .menu-btn i {
+        display: block;
+        background: none;
+        font-size: 35px;
+
+    }
+
+    .social-media-contact-navbar {
+        display: block;
+        color: white;
+    }
+
+    .social-media-contact-navbar a i {
+        color: white;
+    }
+
+    .social-media-contact {
+        display: none !important;
+    }
+
+    #call-navbar {
+        display: none;
+    }
+
+    #u-tube-navbar {
+        margin-left: -3%;
+        padding: 15px 22px;
+        font-size: 35px;
+    }
+
+    #fb-navbar {
+        margin-left: -48%;
+        padding: 15px 22px;
+        font-size: 35px;
+    }
+
+    #e-mail-navbar {
+        margin-left: 0%;
+
+        padding: 15px 22px;
+        font-size: 35px;
+    }
+
+    .flexbox-page1 {
+        display: none;
+    }
+
+    .menu-btn i {
+        margin-left: -130%;
+    }
+
+    .mynav {
+        z-index: 3;
+        height: 69px !important;
+    }
+
+    #default {
+        display: block;
+        background: none;
+
+    }
+
+    .mynav ul {
+
+        position: fixed;
+        top: -12px;
+        left: -100%;
+        background-color: #0d0c0c;
+        height: 100%;
+        width: 30%;
+        display: block;
+        transition: all 0.8 ease;
+    }
+
+    #click:checked~ul {
+        left: 0;
+    }
+
+    .mynav ul li {
+
+        margin-left: 15% !important;
+        margin: 20px 0;
+    }
+
+    .mynav ul li a {
+        font-size: 18px !important;
+    }
+
+}
+
+/* Responsive designing */
+/* @media screen and (max-width: 1529px) and (min-width: 1520px) {
+    .image-flexbox {
+        display: flexbox;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+}
+
+@media screen and (max-width: 1520px) and (min-width: 1505px) {
+    .image-flexbox {
+        display: flexbox;
+        flex-direction: column;
+        margin-top: 5%;
+        margin-left: 8%;
+        margin-right: 8%;
+
+
+    }
+} */
+
+@media screen and (max-width: 1500px) and (min-width: 1220px) {
+    .block {
+        margin: -22px -2px;
+        text-decoration: none;
+        padding: 20px 49px;
+        text-align: center;
+        color: rgb(249, 245, 245);
+        font-size: 20px;
+
+    }
+
+    /* #block5 {
+        color: #0d0c0c;
+        background-color: #869190e8;
+        font-size: 20px;
+        padding: 35px 75px;
+    } */
+    .page-5 {
+        margin-top: 65%;
+        position: relative;
+        height: 40vh;
+        background-color: white;
+    }
+
+    .page-5 h2 {
+        margin-left: 5%;
+        font-size: 20px;
+        border-bottom: 1px gray solid;
+        width: 35%;
+        line-height: 50px;
+    }
+
+    .page-6 {
+        margin-top: 15%;
+        min-height: 50vh;
+        position: relative;
+    }
+
+
+}
+
+@media screen and (max-width: 1220px) and (min-width: 902px) {
+
+    /* quote css */
+    .my-quote {
+
+        margin-top: 2%;
+    }
+
+    /* first page */
+    .logo-name-details li h1 {
+        margin-top: -130px;
+        margin-left: -11px;
+    }
+
+    .logo-image {
+        position: static;
+        margin: 57px 57px;
+        height: 115px;
+    }
+
+    #call {
+        position: absolute;
+        margin-top: -15%;
+        margin-left: 25%;
+    }
+
+    #fb {
+        position: absolute;
+        margin-left: 25%;
+        margin-top: -10%;
+        font-size: 25px;
+    }
+
+    #u-tube {
+        position: absolute;
+        margin-left: 32%;
+        margin-top: -10%;
+        font-size: 25px;
+    }
+
+    #e-mail {
+        position: absolute;
+        margin-left: 39%;
+        margin-top: -10%;
+        font-size: 25px;
+    }
+
+    /* block section */
+    .block {
+        margin: -22px -2px;
+        padding: 20px 30px;
+    }
+
+    /* page ---2 css */
+    .page-2 {
+        background-color: white;
+        height: 100vh;
+    }
+
+    .page-2-div-responsive {
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+
+    .announcement {
+        text-align: left;
+        color: #01B1D7;
+        font-size: 20px;
+        padding: 41px 30px;
+        margin: 10px 15px;
+    }
+
+    .announcement-box {
+        padding: 0px 38px;
+        margin-left: -4%;
+        margin-top: 4%;
+        display: flexbox;
+        float: left;
+        width: 30%;
+
+    }
+
+    /* founder box css */
+    .founder-box {
+        display: flexbox;
+        margin-left: 5%;
+        margin-top: 7%;
+        float: left;
+        width: 25%;
+        text-align: justify;
+    }
+
+    #founder-image {
+        height: 20%;
+        width: 100%;
+    }
+
+    .horizontal-line {
+        margin-top: -38%;
+        color: #7c7676;
+        width: 80%;
+        position: center;
+    }
+
+    /* page -3 */
+
+
+    /* page-4 */
+    .page-4 {
+        margin-top: 5%;
+    }
+
+    .img-any {
+        display: none;
+    }
+
+    .keypoints-heading {
+        margin-left: 9%;
+        font-size: 25px;
+        border-bottom: 1px solid #e0e0e0;
+        line-height: 10vh;
+        width: 30%;
+    }
+
+    .key-points {
+        display: block;
+        width: 100%;
+    }
+
+    .keypoint-image {
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+
+    .keypoint-heading {
+        margin-left: 15%;
+    }
+
+    .keypoint-para {
+        margin-left: 15%;
+
+    }
+
+    /*  page 5 */
+    .page-5 {
+        margin-top: 65%;
+        position: absolute;
+        height: 60vh;
+        background-color: white;
+    }
+
+    .page-5 h2 {
+        margin-left: 5%;
+        font-size: 20px;
+        border-bottom: 1px gray solid;
+        width: 25%;
+        line-height: 50px;
+    }
+
+    .image-flexbox {
+        margin-top: 8%;
+    }
+
+    .img-flex-inner-div1 {
+        display: flexbox;
+        width: 30%;
+    }
+
+    .img-flex-inner-div2 {
+        display: flexbox;
+        width: 30%;
+    }
+
+    .img-flex-inner-div3 {
+        display: none;
+        width: 25%;
+    }
+
+    .img-flex-inner-div4 {
+        display: flexbox;
+        width: 30%;
+    }
+
+    .img-flex-inner-div5 {
+        display: none;
+        width: 30%;
+    }
+
+    .img-flex-inner-div6 {
+        display: flexbox;
+        width: 30%;
+    }
+
+    .photo-gallery-image {
+        width: 100%;
+        height: 30vh;
+    }
+
+    /* page-6 */
+    .page-6 {
+        margin-top: 125%;
+        min-height: 50vh;
+        position: relative;
+    }
+
+    .page-6 p {
+        margin-left: 3%;
+        margin-top: 20%;
+    }
+
+    .page-6-para {
+        padding: 50px;
+        margin-top: 55%;
+    }
+
+    /* page-7 */
+
+    .page-7 {
+        margin-top: -5.8%;
+        min-height: 48vh;
+    }
+
+    .page-7 h2 {
+        font-size: 25px;
+        line-height: 30px;
+        padding: 40px 30px;
+        margin-left: 10%;
+    }
+
+    .page-7 p {
+        margin-top: -7%;
+
+    }
+
+    /* page-8 */
+    .page-8 {
+        min-height: 45vh;
+    }
+
+    .page-8-div-1 {
+        display: flexbox;
+        float: left;
+        margin-top: 2%;
+        margin-left: 7%;
+        width: 30%;
+    }
+
+    .page-8-div-2 {
+        margin-top: 2%;
+        margin-left: 4%;
+        width: 25%;
+    }
+
+    .page-8-div-3 {
+        margin-left: 3%;
+        width: 23%;
+
+    }
+
+    #vdogallery-image {
+        border-radius: 10px;
+        margin-top: 18%;
+        height: 25vh;
+        width: 100%;
+    }
+
+    /* footer css */
+
+    .main-footer {
+        height: 80px;
+        bottom: auto;
+
+    }
+
+    .copyright {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* top-back scrolling */
+    .scroll-up {
+        margin-top: -8%;
+    }
+}
+
+@media screen and (max-width: 902px) and (min-width: 740px) {
+
+    /* quote css */
+    .my-quote {
+
+        margin-top: 45%;
+    }
+
+    /* first page */
+    .logo-name-details li h1 {
+        list-style: none;
+        display: flex;
+        float: left;
+        margin-top: -130px;
+        margin-left: -11px;
+    }
+
+
+    .logo-image {
+        display: inline-block;
+        position: static;
+        margin: 57px 57px;
+        height: 115px;
+    }
+
+    #call {
+
+        margin-top: -17%;
+        margin-left: 10%;
+    }
+
+    #fb {
+        margin-left: 10%;
+        margin-top: -12%;
+    }
+
+    #u-tube {
+        margin-left: 17%;
+        margin-top: -12%;
+    }
+
+    #e-mail {
+        margin-left: 24%;
+        margin-top: -12%;
+    }
+
+    /* block section */
+    nav {
+        margin-top: 5%;
+        display: flexbox;
+        padding: 10px 30px;
+        box-sizing: content-box;
+        flex-wrap: wrap;
+    }
+
+    .block {
+        padding: 35px 84px;
+        margin-top: 5%;
+        flex-wrap: wrap;
+        color: black;
+        background-color: #869190e8;
+        font-size: 20px;
+    }
+
+    #block5 {
+        color: #0d0c0c;
+        background-color: #869190e8;
+        font-size: 20px;
+        padding: 35px 75px;
+    }
+
+    nav a:hover {
+        outline: 1px solid rgb(11, 11, 11);
+    }
+
+    .block:hover {
+        background-color: #3fdfd9e6;
+    }
+
+    /* page ---2 css */
+    .page-2 {
+        background-color: white;
+        height: 100vh;
+    }
+
+    .page-2-div-responsive {
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+
+    .announcement {
+        text-align: left;
+        color: #01B1D7;
+        font-size: 20px;
+        padding: 41px 30px;
+        margin: 10px 15px;
+    }
+
+    .announcement-box {
+        padding: 0px 38px;
+        margin-left: -4%;
+        margin-top: 4%;
+        display: flexbox;
+        float: left;
+        width: 30%;
+
+    }
+
+    /* founder box css */
+    .founder-box {
+        display: flexbox;
+        margin-left: 5%;
+        margin-top: 7%;
+        float: left;
+        width: 25%;
+        text-align: justify;
+    }
+
+    #founder-image {
+        height: 20%;
+        width: 100%;
+    }
+
+    .horizontal-line {
+        margin-top: -38%;
+        color: #7c7676;
+        width: 80%;
+        position: center;
+    }
+
+    /* page -3 */
+
+
+    /* page-4 */
+    .page-4 {
+        margin-top: 5%;
+    }
+
+    .img-any {
+        display: none;
+    }
+
+    .keypoints-heading {
+        margin-left: 9%;
+        font-size: 25px;
+        border-bottom: 1px solid #e0e0e0;
+        line-height: 10vh;
+        width: 30%;
+    }
+
+    .key-points {
+        display: block;
+        width: 100%;
+    }
+
+    .keypoint-image {
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+
+    .keypoint-heading {
+        margin-left: 15%;
+    }
+
+    .keypoint-para {
+        margin-left: 15%;
+
+    }
+
+    /*  page 5 */
+    .page-5 {
+        margin-top: 65%;
+        position: absolute;
+        height: 60vh;
+        background-color: white;
+    }
+
+    .page-5 h2 {
+        margin-left: 5%;
+        font-size: 20px;
+        border-bottom: 1px gray solid;
+        width: 25%;
+        line-height: 50px;
+    }
+
+    .image-flexbox {
+        margin-top: 8%;
+    }
+
+    .img-flex-inner-div1 {
+        display: flexbox;
+        width: 30%;
+    }
+
+    .img-flex-inner-div2 {
+        display: flexbox;
+        width: 30%;
+    }
+
+    .img-flex-inner-div3 {
+        display: none;
+        width: 25%;
+    }
+
+    .img-flex-inner-div4 {
+        display: flexbox;
+        width: 30%;
+    }
+
+    .img-flex-inner-div5 {
+        display: none;
+        width: 30%;
+    }
+
+    .img-flex-inner-div6 {
+        display: flexbox;
+        width: 30%;
+    }
+
+    .photo-gallery-image {
+        width: 100%;
+        height: 30vh;
+    }
+
+    /* page-6 */
+    .page-6 {
+        margin-top: 125%;
+        min-height: 50vh;
+        position: relative;
+    }
+
+    .page-6 p {
+        margin-left: 3%;
+        margin-top: 20%;
+    }
+
+    .page-6-para {
+        padding: 50px;
+        margin-top: 55%;
+    }
+
+    /* page-7 */
+
+    .page-7 {
+        margin-top: -5.8%;
+        min-height: 48vh;
+    }
+
+    .page-7 h2 {
+        font-size: 25px;
+        line-height: 30px;
+        padding: 40px 30px;
+        margin-left: 10%;
+    }
+
+    .page-7 p {
+        margin-top: -7%;
+
+    }
+
+    /* page-8 */
+    .page-8 {
+        min-height: 45vh;
+    }
+
+    .page-8-div-1 {
+        display: flexbox;
+        float: left;
+        margin-top: 2%;
+        margin-left: 7%;
+        width: 30%;
+    }
+
+    .page-8-div-2 {
+        margin-top: 2%;
+        margin-left: 4%;
+        width: 25%;
+    }
+
+    .page-8-div-3 {
+        margin-left: 3%;
+        width: 23%;
+
+    }
+
+    #vdogallery-image {
+        border-radius: 10px;
+        margin-top: 18%;
+        height: 25vh;
+        width: 100%;
+    }
+
+    /* footer css */
+
+    .main-footer {
+        height: 80px;
+        bottom: auto;
+
+    }
+
+    .copyright {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* top-back scrolling */
+    .scroll-up {
+        margin-top: -8%;
+    }
+}
+
+@media screen and (max-width: 912px) and (min-width: 760px) {
+    .my-quote {
+
+        margin-top: 55%;
+    }
+
+    .mynav {
+        height: 50px;
+
+    }
+
+    .mynav ul li a {
+        font-size: 25px !important;
+
+    }
+
+    .myschool1-image {
+        background-image: url(images/mainbuilding1.jpeg);
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .logo-name-details li h1 {
+        list-style: none;
+        display: flex;
+        float: left;
+        font-size: 35px;
+        margin-top: -209px;
+        margin-left: -11px;
+    }
+
+    .logo-image {
+        display: inline-block;
+        position: static;
+        margin: 107px 57px;
+        height: 175px;
+    }
+
+    #call {
+
+        position: absolute;
+        margin-top: -5.5%;
+        margin-left: -21%;
+        font-size: 25px;
+    }
+
+    #fb {
+
+        position: absolute;
+        margin-left: 4%;
+        margin-top: -5.5%;
+        font-size: 25px;
+    }
+
+    #u-tube {
+
+        position: absolute;
+        margin-left: 11%;
+        margin-top: -5.5%;
+        font-size: 25px;
+    }
+
+    #e-mail {
+
+        position: absolute;
+        margin-left: 18%;
+        margin-top: -5.5%;
+        font-size: 25px;
+    }
+
+    .flexbox-page1 {
+        display: none;
+    }
+
+    /* page ---2 css */
+    .page-2 {
+        background-color: white;
+        height: 100vh;
+    }
+
+    .page-2-div-responsive {
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+
+    .announcement {
+        text-align: left;
+        color: #01B1D7;
+        font-size: 20px;
+        padding: 41px 30px;
+        margin: 10px 15px;
+    }
+
+    .announcement-box {
+        padding: 0px 38px;
+        margin-left: -4%;
+        margin-top: 4%;
+        display: flexbox;
+        float: left;
+        width: 30%;
+
+    }
+
+    /* founder box css */
+    .founder-box {
+        display: flexbox;
+        margin-left: 5%;
+        margin-top: 7%;
+        float: left;
+        width: 25%;
+        text-align: justify;
+    }
+
+    #founder-image {
+        height: 20%;
+        width: 100%;
+    }
+
+    .horizontal-line {
+        margin-top: -38%;
+        color: #7c7676;
+        width: 80%;
+        position: center;
+    }
+
+    /* page -3 */
+    .page-3 {
+        margin-top: -50%;
+    }
+
+    /* page-4 */
+    .page-4 {
+        margin-top: 5%;
+    }
+
+    .img-any {
+        display: none;
+    }
+
+    .keypoints-heading {
+        margin-left: 9%;
+        font-size: 25px;
+        border-bottom: 1px solid #e0e0e0;
+        line-height: 10vh;
+        width: 30%;
+    }
+
+    .key-points {
+        display: block;
+        width: 100%;
+    }
+
+    .keypoint-image {
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+
+    .keypoint-heading {
+        margin-left: 15%;
+    }
+
+    .keypoint-para {
+        margin-left: 15%;
+
+    }
+
+    /*  page 5 */
+    .page-5 {
+        margin-top: 65%;
+        position: absolute;
+        height: 60vh;
+        background-color: white;
+    }
+
+    .page-5 h2 {
+        margin-left: 5%;
+        font-size: 20px;
+        border-bottom: 1px gray solid;
+        width: 25%;
+        line-height: 50px;
+    }
+
+    .image-flexbox {
+        margin-top: 10%;
+    }
+
+    .img-flex-inner-div1 {
+        display: flexbox;
+        width: 30%;
+    }
+
+    .img-flex-inner-div2 {
+        display: flexbox;
+        width: 30%;
+    }
+
+    .img-flex-inner-div3 {
+        display: none;
+        width: 25%;
+    }
+
+    .img-flex-inner-div4 {
+        display: flexbox;
+        width: 30%;
+    }
+
+    .img-flex-inner-div5 {
+        display: none;
+        width: 30%;
+    }
+
+    .img-flex-inner-div6 {
+        display: flexbox;
+        width: 30%;
+    }
+
+    .photo-gallery-image {
+        width: 100%;
+        height: 30vh;
+    }
+
+    /* page-6 */
+    .page-6 {
+        margin-top: 135%;
+        min-height: 30%;
+        position: relative;
+    }
+
+    .page-6 p {
+        margin-left: 3%;
+        margin-top: 20%;
+    }
+
+    .page-6-para {
+        padding: 50px;
+        margin-top: 55%;
+    }
+
+    /* page-7 */
+
+    .page-7 {
+        margin-top: -5.8%;
+        min-height: 50%;
+    }
+
+    .page-7 h2 {
+        font-size: 25px;
+        line-height: 30px;
+        padding: 40px 30px;
+        margin-left: 10%;
+    }
+
+    .page-7 p {
+        margin-top: -7%;
+
+    }
+
+    /* page-8 */
+    .page-8 {
+        margin-top: -2%;
+        min-height: 40vh;
+        background-image: linear-gradient(rgba(24, 21, 21, 0.5), rgba(18, 18, 17, 0.954)), url(images/black.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .page-8-div-1 {
+        display: flexbox;
+        float: left;
+        margin-top: 2%;
+        margin-left: 7%;
+        width: 30%;
+    }
+
+    .page-8-div-2 {
+        margin-top: 2%;
+        margin-left: 4%;
+        width: 25%;
+    }
+
+    .page-8-div-3 {
+        margin-left: 3%;
+        width: 23%;
+
+    }
+
+    #vdogallery-image {
+        border-radius: 10px;
+        margin-top: 18%;
+        height: 25vh;
+        width: 100%;
+    }
+
+    /* footer css */
+
+    .main-footer {
+        height: 80px;
+        bottom: auto;
+
+    }
+
+    .copyright {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    /* top-back scrolling */
+    .scroll-up {
+        margin-top: -8%;
+    }
+}
+
+@media screen and (max-width: 760px) and (min-width: 412px) {
+    .first-top-navbar {
+        position: fixed;
+        margin: 0px 0px;
+        width: 100%;
+        height: 64px;
+        background-color: black;
+        z-index: 1;
+    }
+
+    .logo-name-details li h1 {
+        margin-top: -216px;
+        margin-left: 191px;
+        font-size: 33px;
+        float: right;
+
+    }
+
+    .logo-image {
+        padding: 60px 9px;
+        margin: 51px 25px;
+        height: 131px;
+    }
+
+    #call {
+
+        margin-top: -20%;
+        margin-left: 10%;
+    }
+
+    #fb {
+        margin-left: 10%;
+        margin-top: -12%;
+
+    }
+
+    #u-tube {
+        margin-left: 20%;
+        margin-top: -12%;
+    }
+
+    #e-mail {
+        margin-left: 30%;
+        margin-top: -12%;
+    }
+
+    .flexbox-page1 {
+        display: none;
+    }
+
+    /* quote */
+    .myschool1-image {
+        background-image: url(images/myschool.jpeg);
+        background-position: center;
+        margin-top: -20%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .my-quote {
+        display: flexbox;
+        float: right;
+        margin-top: 39%;
+    }
+
+    .first-line p {
+        font-size: 17px;
+        padding: 17px 28px;
+    }
+
+    .third-line p {
+        margin-top: 18%;
+        font-size: 17px;
+        padding: 17px 28px;
+    }
+
+    .second-line p {
+        margin-top: -2%;
+        font-size: 17px;
+        width: 51%;
+        float: right;
+        padding: 17px;
+    }
+
+    /* page ---2 css */
+    .page-2 {
+        background-color: white;
+        height: 100vh;
+    }
+
+    .page-2-div-responsive {
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+
+    .announcement {
+        text-align: left;
+        color: #01B1D7;
+        font-size: 20px;
+        padding: 41px 30px;
+        margin: 10px 15px;
+    }
+
+    .announcement-box {
+        padding: 0px 38px;
+        margin-left: -4%;
+        margin-top: 4%;
+        display: flexbox;
+        float: left;
+        width: 80%;
+
+    }
+
+    /* founder box css */
+    .founder-box {
+        display: flexbox;
+        margin-left: 5%;
+        margin-top: 7%;
+        float: left;
+        width: 90%;
+        text-align: justify;
+    }
+
+    #founder-image {
+        height: 20%;
+        width: 100%;
+    }
+
+    .horizontal-line {
+        margin-top: -38%;
+        color: #7c7676;
+        width: 80%;
+        position: center;
+    }
+
+    /* page -3 */
+
+    .introduction h1 {
+        font-size: 24px;
+    }
+
+    /* page-4 */
+    .page-4 {
+        margin-top: 5%;
+        height: 65vh;
+    }
+
+    .img-any {
+        display: none;
+    }
+
+    .keypoints-heading {
+        font-size: 24px;
+        width: 50%;
+    }
+
+    .key-points {
+        display: block;
+        width: 100%;
+    }
+
+    .keypoint-heading {
+        margin-left: 15%;
+        font-size: 20px;
+    }
+
+
+    /*  page 5 */
+    .page-5 {
+        margin-top: 20%;
+        position: absolute;
+        height: 100vh;
+
+    }
+
+    .page-5 h2 {
+        margin-left: 5%;
+        font-size: 20px;
+        border-bottom: 1px gray solid;
+        width: 40%;
+        line-height: 50px;
+    }
+
+    .image-flexbox {
+        margin-top: 14%;
+        display: inline-block;
+    }
+
+    /* .image-flexbox ul {
+        top: 50%;
+       
+
+    } */
+    /* .image-flexbox ul li {
+        top: 50%;
+        margin: 3%;
+        display: flexbox;
+        flex-wrap: wrap;
+
+    } */
+    .photo-gallery-image {
+        width: 100%;
+        overflow: auto;
+        margin: 9%;
+        height: 30vh;
+
+    }
+
+    .img-flex-inner-div1 {
+        margin-left: -23% !important;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .img-flex-inner-div2 {
+        display: none;
+
+    }
+
+    .img-flex-inner-div3 {
+        display: none !important;
+
+    }
+
+    .img-flex-inner-div4 {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .img-flex-inner-div5 {
+        display: none !important;
+    }
+
+    .img-flex-inner-div6 {
+        display: inline-block;
+        width: 100%;
+    }
+
+    /* page-6 */
+    .page-6 {
+        margin-top: 130%;
+        min-height: 30vh;
+
+    }
+
+    .page-6 p {
+        margin-left: 3%;
+        margin-top: 20%;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .page-6-para {
+        font-size: 30px;
+        padding: 30px;
+        margin-top: 55%;
+    }
+
+    /* page-7 */
+
+    .page-7 {
+
+        margin-top: -5.8%;
+        min-height: 48vh;
+    }
+
+    .page-7 h2 {
+        width: 70%;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 40px 30px;
+        margin-left: 6%;
+    }
+
+    .page-7 p {
+        position: static;
+        margin-top: -16%;
+        margin-left: 2%;
+        margin-right: 2%;
+        line-height: 30px;
+        font-size: 15px;
+        text-align: justify;
+
+    }
+
+    /* page-8 */
+    .page-8 {
+        position: relative;
+        min-height: 75vh;
+        margin-top: 0%;
+    }
+
+    .page-8-div-1 {
+        display: flexbox;
+
+        margin-top: 2%;
+        margin-left: 20%;
+        width: 80%;
+    }
+
+    .page-8-div-2 {
+        margin-top: 7%;
+        margin-left: 8%;
+        width: 42%;
+    }
+
+    .page-8-div-3 {
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 35%;
+
+    }
+
+    #vdogallery-image {
+        border-radius: 10px;
+        margin-top: 18%;
+        height: 25vh;
+        width: 100%;
+    }
+
+    /* footer css */
+
+    .main-footer {
+        height: 20%;
+        bottom: auto;
+
+    }
+
+    .copyright {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    /* top-back scrolling */
+    .scroll-up {
+        margin-top: -11%;
+    }
+}
+
+@media screen and (max-width: 415px) and (min-width: 279px) {
+    .mynav ul {
+        height: 100%;
+        width: 50% !important;
+       
+    }
+    .first-top-navbar {
+        position: fixed;
+        margin: 0px 0px;
+        width: 100%;
+        height: 64px;
+        background-color: black;
+        z-index: 1;
+    }
+
+    .logo-name-details li h1 {
+        margin-top: -260px;
+        margin-left: 224px;
+        font-size: 30px;
+        line-height: 40px;
+        float: right;
+
+    }
+
+    .logo-image {
+        padding: 60px 9px;
+        margin: 51px 25px;
+        height: 131px;
+    }
+
+    /* .logo-name-details li h1 {
+        float: right;
+        margin-top: -177px;
+        margin-left: 174px;
+    }
+
+    .logo-image {
+        margin: 69px 29px;
+    } */
+
+    #u-tube-navbar {
+        margin-left: -3%;
+        padding: 15px 22px;
+        font-size: 30px;
+    }
+
+    #fb-navbar {
+        margin-left: -30%;
+        padding: 15px 22px;
+        font-size: 30px;
+    }
+
+    #e-mail-navbar {
+        margin-left: 0%;
+        padding: 15px 22px;
+        font-size: 30px;
+    }
+
+
+    .flexbox-page1 {
+        display: none;
+    }
+
+    /* quote */
+    .myschool1-image {
+        background-image: url(images/myschool.jpeg);
+        background-position: center;
+        margin-top: -23%;
+      
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .my-quote {
+        display: flexbox;
+        float: right;
+        margin-top: 55%;
+    }
+
+    .first-line p {
+        font-size: 15px;
+        float: right;
+        /* width: 75%; */
+        padding: 16px 15px;
+    }
+
+    .third-line p {
+        margin-top: 44%;
+        font-size: 15px;
+        padding: 19px 12px;
+    }
+
+    .second-line p {
+        margin-top: 0%;
+        font-size: 15px;
+        width: 51%;
+        float: right;
+        padding: 17px;
+    }
+
+    /* page ---2 css */
+    .page-2 {
+        background-color: white;
+        height: 100vh;
+    }
+
+    .page-2-div-responsive {
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+
+    .announcement {
+        text-align: left;
+        color: #01B1D7;
+        font-size: 20px;
+        padding: 41px 30px;
+        margin: 10px 15px;
+    }
+
+    .announcement-box {
+        padding: 0px 38px;
+        margin-left: -4%;
+        margin-top: 4%;
+        display: flexbox;
+        float: left;
+        width: 80%;
+
+    }
+
+    /* founder box css */
+    .founder-box {
+        display: flexbox;
+        margin-left: 5%;
+        margin-top: 7%;
+        float: left;
+        width: 90%;
+        text-align: justify;
+    }
+
+    #founder-image {
+        height: 20%;
+        width: 100%;
+    }
+
+    .horizontal-line {
+        margin-top: -38%;
+        color: #7c7676;
+        width: 80%;
+        position: center;
+    }
+
+    /* page -3 */
+
+    .introduction h1 {
+        font-size: 24px;
+    }
+
+    /* page-4 */
+    .page-4 {
+        margin-top: 5%;
+        height: 65vh;
+    }
+
+    .img-any {
+        display: none;
+    }
+
+    .keypoints-heading {
+        font-size: 24px;
+        width: 50%;
+    }
+
+    .key-points {
+        display: block;
+        width: 100%;
+    }
+
+    .keypoint-heading {
+        margin-left: 15%;
+        font-size: 20px;
+    }
+
+
+    /*  page 5 */
+    .page-5 {
+        margin-top: 45%;
+        position: absolute;
+        height: 100%;
+
+    }
+
+    .page-5 h2 {
+        margin-left: 5%;
+        font-size: 20px;
+        border-bottom: 1px gray solid;
+        width: 40%;
+        line-height: 50px;
+    }
+
+    .image-flexbox {
+        margin-top: 14%;
+        display: inline-block;
+    }
+
+    /* .image-flexbox ul {
+        top: 50%;
+       
+
+    } */
+    /* .image-flexbox ul li {
+        top: 50%;
+        margin: 3%;
+        display: flexbox;
+        flex-wrap: wrap;
+
+    } */
+    .photo-gallery-image {
+        width: 100%;
+        overflow: auto;
+        margin: 9%;
+        height: 30vh;
+
+    }
+
+    .img-flex-inner-div1 {
+        margin-left: -23% !important;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .img-flex-inner-div2 {
+        display: none;
+
+    }
+
+    .img-flex-inner-div3 {
+        display: none !important;
+
+    }
+
+    .img-flex-inner-div4 {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .img-flex-inner-div5 {
+        display: none !important;
+    }
+
+    .img-flex-inner-div6 {
+        display: inline-block;
+        width: 100%;
+    }
+
+    /* page-6 */
+    .page-6 {
+        margin-top: 170%;
+        min-height: 30vh;
+
+    }
+
+    .page-6 p {
+        margin-left: 3%;
+        margin-top: 20%;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .page-6-para {
+        font-size: 30px;
+        padding: 30px;
+        margin-top: 55%;
+    }
+
+    /* page-7 */
+
+    .page-7 {
+
+        margin-top: -5.8%;
+        min-height: 48vh;
+    }
+
+    .page-7 h2 {
+        width: 70%;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 40px 30px;
+        margin-left: 6%;
+    }
+
+    .page-7 p {
+        position: static;
+        margin-top: -16%;
+        margin-left: 2%;
+        margin-right: 2%;
+        line-height: 30px;
+        font-size: 15px;
+        text-align: justify;
+
+    }
+
+    /* page-8 */
+    .page-8 {
+        position: relative;
+        min-height: 80vh;
+        margin-top: 0%;
+    }
+
+    .page-8-div-1 {
+        display: flexbox;
+
+        margin-top: 2%;
+        margin-left: 20%;
+        width: 80%;
+    }
+
+    .page-8-div-2 {
+        margin-top: 7%;
+        margin-left: 8%;
+        width: 42%;
+    }
+
+    .page-8-div-3 {
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 35%;
+
+    }
+
+    #vdogallery-image {
+        border-radius: 10px;
+        margin-top: 18%;
+        height: 25vh;
+        width: 100%;
+    }
+
+    /* footer css */
+
+    .main-footer {
+        height: 22%;
+        bottom: auto;
+
+    }
+
+    .copyright {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    /* top-back scrolling */
+    .scroll-up {
+        margin-top: -11%;
+    }
+}
+
+@media screen and (max-width: 300px) and (min-width: 200px) {
+    .mynav ul {
+        height: 100%;
+        width: 50% !important;
+       
+    }
+ 
+    .first-top-navbar {
+        position: fixed;
+        margin: 0px 0px;
+        width: 100%;
+        height: 64px;
+        background-color: black;
+        z-index: 1;
+    }
+
+    .logo-name-details li h1 {
+        margin-top: -228px;
+    margin-left: 162px;
+        font-size: 30px;
+        line-height: 40px;
+        float: right;
+
+    }
+
+    .logo-image {
+        padding: 43px 0px;
+        margin: 45px 12px;
+        height: 117px;
+    }
+    #u-tube-navbar {
+        margin-left: -11%;
+        font-size: 23px;
+    }
+    #fb-navbar {
+        margin-left: -9%;
+        font-size: 23px;
+    }
+    #e-mail-navbar {
+        margin-left: -8%;
+        font-size: 23px;
+    }
+    .flexbox-page1 {
+        display: none;
+    }
+    .mynav .menu-btn i {
+        font-size: 23px !important;
+    }
+
+    /* quote */
+    .myschool1-image {
+        background-image: url(images/myschool.jpeg);
+        background-position: center;
+        margin-top: -23%;
+      
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .my-quote {
+        float: right;
+        margin-top: 55%;
+    }
+
+    .first-line p {
+        font-size: 13px;
+        float: right;
+        /* width: 75%; */
+        padding: 11px 4px;
+    }
+
+    .third-line p {
+        margin-top: 50%;
+        font-size: 13px;
+        padding: 1px 31px
+    }
+
+    .second-line p {
+        margin-top: 0%;
+        font-size: 13px;
+        width: 56%;
+        float: right;
+        padding: 11px 20px;
+    }
+
+  
+
+    /* page ---2 css */
+    .page-2 {
+        background-color: white;
+        height: 100vh;
+    }
+
+    .page-2-div-responsive {
+        display: flexbox;
+        flex-wrap: wrap;
+    }
+
+    .announcement {
+        text-align: left;
+        color: #01B1D7;
+        font-size: 20px;
+        padding: 35px 25px;
+        margin: 10px 15px;
+    }
+
+    .announcement-box {
+        padding: 0px 38px;
+        margin-left: -4%;
+        margin-top: 4%;
+        display: flexbox;
+        float: left;
+        width: 75%;
+
+    }
+
+    /* founder box css */
+    .founder-box {
+        display: flexbox;
+        margin-left: 5%;
+        margin-top: 7%;
+        float: left;
+        width: 90%;
+        text-align: justify;
+    }
+
+    #founder-image {
+        height: 20%;
+        width: 100%;
+    }
+
+    .horizontal-line {
+        margin-top: -38%;
+        color: #7c7676;
+        width: 80%;
+        position: center;
+    }
+
+    /* page -3 */
+
+    .introduction h1 {
+        font-size: 18px;
+    }
+
+    /* page-4 */
+    .page-4 {
+        margin-top: 5%;
+        height: 65vh;
+    }
+
+    .img-any {
+        display: none;
+    }
+
+    .keypoints-heading {
+        font-size: 24px;
+        width: 50%;
+    }
+
+    .key-points {
+        display: block;
+        width: 100%;
+    }
+
+    .keypoint-heading {
+        margin-left: 15%;
+        font-size: 20px;
+    }
+
+
+    /*  page 5 */
+    .page-5 {
+        margin-top: 85%;
+        position: absolute;
+        height: 100%;
+
+    }
+
+    .page-5 h2 {
+        margin-left: 5%;
+        font-size: 20px;
+        border-bottom: 1px gray solid;
+        width: 40%;
+        line-height: 50px;
+    }
+
+    .image-flexbox {
+        margin-top: 14%;
+        display: inline-block;
+    }
+
+    /* .image-flexbox ul {
+        top: 50%;
+       
+
+    } */
+    /* .image-flexbox ul li {
+        top: 50%;
+        margin: 3%;
+        display: flexbox;
+        flex-wrap: wrap;
+
+    } */
+    .photo-gallery-image {
+        width: 100%;
+        overflow: auto;
+        margin: 9%;
+        height: 30vh;
+
+    }
+
+    .img-flex-inner-div1 {
+        margin-left: -23% !important;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .img-flex-inner-div2 {
+        display: none;
+
+    }
+
+    .img-flex-inner-div3 {
+        display: none !important;
+
+    }
+
+    .img-flex-inner-div4 {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .img-flex-inner-div5 {
+        display: none !important;
+    }
+
+    .img-flex-inner-div6 {
+        display: inline-block;
+        width: 100%;
+    }
+
+    /* page-6 */
+    .page-6 {
+        margin-top: 270%;
+        min-height: 30vh;
+
+    }
+
+    .page-6 p {
+        margin-left: 3%;
+        margin-top: 20%;
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .page-6-para {
+        font-size: 30px;
+        padding: 30px;
+        margin-top: 55%;
+    }
+
+    /* page-7 */
+
+    .page-7 {
+
+        margin-top: -5.8%;
+        min-height: 48vh;
+    }
+
+    .page-7 h2 {
+        width: 70%;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 40px 30px;
+        margin-left: 6%;
+    }
+
+    .page-7 p {
+        position: static;
+        margin-top: -16%;
+        margin-left: 2%;
+        margin-right: 2%;
+        line-height: 30px;
+        font-size: 15px;
+        text-align: justify;
+
+    }
+
+    /* page-8 */
+    .page-8 {
+        position: relative;
+        min-height: 95vh;
+        margin-top: 0%;
+
+    }
+
+    .page-8-div-1 {
+        display: flexbox;
+        font-size: 14px;
+        margin-top: 2%;
+        margin-left: 20%;
+        width: 80%;
+    }
+
+    .page-8-div-2 {
+        margin-top: 7%;
+        font-size: 14px;
+        margin-left: 8%;
+        width: 45%;
+    }
+
+    .page-8-div-3 {
+        margin-top: 10%;
+        margin-left: 5%;
+        font-size: 14px;
+        width: 35%;
+
+    }
+
+    #vdogallery-image {
+        border-radius: 10px;
+        margin-top: 18%;
+        height: 25vh;
+        width: 100%;
+    }
+
+    /* footer css */
+
+    .main-footer {
+        height: 18%;
+        bottom: auto;
+
+    }
+
+    .copyright {
+        margin-left: 8%;
+        margin-right: 8%;
+        font-size: 10px;
+    }
+
+    /* top-back scrolling */
+    .scroll-up {
+        margin-right: 4%;
+        margin-top: -17%;
+    }
+}
